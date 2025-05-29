@@ -18,7 +18,7 @@ def read_file(file_path, delimiter=" "):
     return array_2d
 
 # Prepare data
-data = np.array(read_file('./ori_data/f_value.txt', " "))
+data = np.array(read_file('./Backup_Related/ori_data/f_value.txt', " "))
 # data = read_file('./ori_data/f_value.txt', " ")
 
 # for row in data:
